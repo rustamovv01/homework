@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 31px 168px;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+nav a{
+    color: rgb(131, 125, 136);
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav button{
+    box-sizing: border-box;
+    border: 1.5px solid rgb(44, 40, 48);
+    background: rgb(255, 255, 255);
+    color: rgb(44, 40, 48);
+    width: 146px;
+    height: 40px;
+}
+.hero{
+    background: rgb(45, 38, 65);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.hero__text{
+    display: flex;
+    flex-direction: column;
+}
+.hero__text h3{
+    color: rgb(255, 255, 255);
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+.hero__text p{
+    color: rgb(255, 255, 255);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 84px;
+}
+.hero__text button{
+    box-sizing: border-box;
+    border: 1.5px solid rgb(255, 255, 255);
+    color: white;
+    width: 146px;
+    height: 40px;
+    background-color: transparent;
+}
+.hero img{
+    width: 671.19px;
+    height: 383.45px;
+}
+#info{
+    width: 100%;
+    padding: 77px 168px;
+}
+#info h3{
+    color: rgb(44, 40, 48);
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.cards .card{
+    width: 350px;
+    height: 250px;
+    
+}
+.card h4{
+    color: rgb(44, 40, 48);
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+.card p{
+    color: rgb(131, 125, 136);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+#sec2{
+    padding: 50px 168px;
+    width: 100%;
+}
+.purple_box{
+    width: 1110px;
+    height: 250px;
+    background: rgb(45, 38, 65);
+    padding: 69px 81px;
+    display: flex;
+    justify-content: space-between;
+}
+.purple_box h3{
+    color: rgb(255, 255, 255);
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.78px;
+    text-align: left;
+}
+.purple_box button{
+    width: 160px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    border: 1.5px solid white;
+    
+}
+footer{
+    width: 100%;
+    padding: 67px 168px;
+}
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    color: rgb(131, 125, 136);
+    font-size: 25px;
+}
